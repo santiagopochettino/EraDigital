@@ -319,6 +319,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+@media (max-width:320px) {
+  .logoEraDig{
+  display: none;
+  }
+  
+}
 
 /*--------------------------------------------------------------
 # Hero Section => INICIO
@@ -384,7 +390,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 20px;
   }
   #hero .hero-img img {
-    width: 20%;
+    width: 30%;
+    margin-top:50px;
   }
 }
 @media (max-width: 575px) {
@@ -407,7 +414,10 @@ h1, h2, h3, h4, h5, h6 {
   #hero .btn-get-started{
     margin: 10% 25%;
   }
+
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
