@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: rgba(0, 0, 0, 0.911);
+  background: rgba(31, 29, 29, 0.986);
   
 }
 #hero h1 {
@@ -1165,22 +1165,12 @@ section {
   color: #fff;
   font-size: 14px;
   position: relative;
-}
-#footer::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   background: rgba(0, 0, 0, 0.815);;
-  z-index: 1;
 }
+
 #footer .footer-top {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: 80px 0;
+  padding: 20px 0;
+  
 }
 #footer .footer-top h3 {
   font-size: 36px;
@@ -1190,27 +1180,15 @@ section {
   font-family: "Poppins", sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
+ 
 }
 #footer .footer-top p {
   font-size: 15;
   font-style: italic;
   margin: 30px 0 0 0;
   padding: 0;
+}
 
-}
-#footer .footer-top .footer-newsletter {
-  text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
-}
-#footer .footer-top .footer-newsletter form {
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
@@ -1257,7 +1235,7 @@ section {
   text-decoration: none;
 }
 #footer .footer-bottom {
-  border-top: 1px solid #1a2e40;
+  border-top: 1px solid #fff;
   z-index: 2;
   position: relative;
   padding-top: 40px;
@@ -1268,9 +1246,10 @@ section {
 }
 #footer .credits {
   display: none;
-  float: right;
-  text-align: center;
   font-size: 13px;
+}
+.logoFooter{
+  width: 20%;
 }
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
