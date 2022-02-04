@@ -1164,19 +1164,23 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  position: relative;
-  background: rgba(0, 0, 0, 0.815);;
-}
 
+  background: rgba(31, 29, 29, 0.986);
+}
+.footerGift{
+  display: flex;
+  justify-content: center;
+  margin-left:40% ;
+  margin-top: -350px;
+}
 #footer .footer-top {
-  padding: 20px 0;
-  
+  padding: 100px 0;
+  margin-left:20% ;
 }
 #footer .footer-top h3 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
-  position: relative;
   font-family: "Poppins", sans-serif;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1256,5 +1260,23 @@ section {
     padding: 5px;
     float: none;
     text-align: ceneter;
+  }
+}
+@media (max-width:426px){
+  .footerGift{
+    
+    margin-left:0 ;
+    margin-top: 0px;
+    height: auto;
+  }
+  #footer .footer-top {
+    padding: 40px 0;
+    margin-left:22% ;
+  }
+}
+@media (max-width:321px){
+  #footer .footer-top {
+    padding: 40px 0;
+    margin-left:15% ;
   }
 }
