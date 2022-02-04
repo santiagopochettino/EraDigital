@@ -72,40 +72,51 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.header .container{
+  position: fixed;
   z-index: 997;
+  box-shadow: 0px 0px 35px rgba(127, 137, 161, 0.25);
+  background-color: rgba(0, 0, 0, 0.815);
   transition: all 0.5s;
-  padding: 16px 0;
-  background: rgba(0, 0, 0, 0.815);
+  height: 50px;
+  border: 2px solid #0794A9;
+  border-radius: 5px;
+  margin-top: 3px;
 
 }
-#header .logo h1 {
+.header .logo h1 {
   font-size: 24px;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 10px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-#header .logo h1 a, #header .logo h1 a:hover {
+.header .logo h1 a, .header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
-#header .logo h1 a span, #header .logo h1 a:hover span {
+.header .logo h1 a span, .header .logo h1 a:hover span {
   color: #0794A9;
 }
-#header .logo img {
+.header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 #hero .hero-img img {
-  width: 90%;
+  width: 100%;
   height: 50%;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -115,6 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  
+  
 }
 .navbar ul {
   margin: 0;
@@ -137,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -231,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    margin-right: 20px;
   }
 
   .navbar ul {
@@ -307,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section => INICIO
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -335,32 +349,39 @@ h1, h2, h3, h4, h5, h6 {
   transition: all ease-in-out 0.3s;
   display: inline-block;
   background: rgba(0, 0, 0, 0.815);
+  margin: 0.5% 32%;
+
 }
+
 #hero .btn-get-started:hover {
   background: transparent;
   color: #fff;
 }
+
+
 @media (max-width: 991px) {
   #hero .hero-img {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 80%;
   }
 }
 @media (max-width: 768px) {
   #hero {
     -moz-text-align-last: center;
     text-align-last: center;
+   
   }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    margin: 20px 20px;
   }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin: 20px 20px;
   }
   #hero .hero-img img {
     width: 20%;
@@ -370,6 +391,22 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 80%;
   }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 10px 10px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 10px;
+  }
+  #hero .hero-img img {
+    width: 20%;
+  }
+  #hero .btn-get-started{
+    margin: 10% 25%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -378,6 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  
 }
 
 .section-bg {
@@ -487,12 +525,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About => SOBRE NOSOTROS
 --------------------------------------------------------------*/
 
 .content {
   margin-left: 50px;
 
+}
+.about{
+  height: 750px;
 }
 .about .content {
   padding: 30px 0;
@@ -539,6 +580,13 @@ section {
 @media (max-width: 667px) {
   .about .image img {
     max-width: 100%;
+  }
+  .content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .about{
+    height: auto;
   }
 }
 
