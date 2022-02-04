@@ -1052,8 +1052,12 @@ section {
   color: #fff;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
+  padding: 100px 0 30px 0;
   background: #fff;
+  border-radius: 5px;
+  width: 500px;
+  height: 375px;
+  margin-left:75%;
 }
 .contact .info-box i {
   font-size: 32px;
@@ -1079,6 +1083,7 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
+  border-radius: 5px;
 }
 .contact .php-email-form .error-message {
   display: none;
@@ -1127,13 +1132,15 @@ section {
 }
 .contact .php-email-form input {
   padding: 10px 15px;
+  border-radius: 5px;
 }
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  border-radius: 5px;
 }
 .contact .php-email-form button[type=submit] {
   background: #0794A9;
-  border: 0;
+  border-radius: 5px;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
@@ -1279,4 +1286,28 @@ section {
     padding: 40px 0;
     margin-left:15% ;
   }
+}
+/**************************************
+# Logo wspp
+--------------------------------------------------------------*/
+.btn-wsp{
+  background-image: url("assets/img/icono-wspp");
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height:55px;
+  bottom: 20px;
+  right: 30px;
+  background: #0df053;  
+  color: #fff; 
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.3); 
+  z-index: 100; 
+}
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
 }
