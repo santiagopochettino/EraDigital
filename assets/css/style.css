@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 18px;
   color: #0794A9;
   white-space: nowrap;
   transition: 0.3s;
@@ -239,14 +239,20 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
+  
 }
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
     margin-right: 20px;
+    font-size: 35px;
+   
   }
-
+   .bi-x{
+    color: #fff;
+    font-size: 40px;
+  }
   .navbar ul {
     display: none;
   }
@@ -276,14 +282,23 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  margin: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.815);
+}
+.navbar-mobile ul li {
+  margin-top: 25px;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #213b52;
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+ 
+
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #0794A9;
@@ -292,6 +307,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px;
   display: block;
   border: 0;
+  color: #fff;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -387,14 +403,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 20px;
   }
   #hero .hero-img img {
-    width: 30%;
+    width: 50%;
     margin-top:50px;
   }
 }
 @media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -406,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 10px;
   }
   #hero .hero-img img {
-    width: 20%;
+    width: 80%;
   }
   #hero .btn-get-started{
     margin: 10% 25%;
@@ -887,6 +900,7 @@ section {
 }
 .team .member .pic img {
   max-width: 100%;
+  border-radius: 5px;
 }
 .team .member h4 {
   font-weight: 700;
