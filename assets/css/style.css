@@ -597,7 +597,7 @@ section {
   background-size: cover;
   min-height: 400px;
 }
-@media (max-width: 667px) {
+@media (max-width: 1025px) {
   .about .image img {
     max-width: 100%;
   }
@@ -605,6 +605,7 @@ section {
     margin-left: 10px;
     margin-right: 10px;
   }
+    
   .about{
     height: auto;
   }
