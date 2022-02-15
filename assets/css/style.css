@@ -711,9 +711,20 @@ section {
 
 #main {
   background-color: rgba(0, 0, 0, 0.911);
-
 }
 
+.miBebe{
+  height: 352px;
+  width: 900px;
+}
+.veterinaria{
+  height: 352px;
+  width: 900px;
+}
+.bazar{
+  height: 352px;
+  width: 900px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -884,6 +895,27 @@ section {
 }
 .portfolio .card:hover .card-body .card-title a {
   color: #0794A9;
+}
+@media (max-width: 992px) {
+ 
+  
+}
+@media (max-width: 767px) {
+ 
+}
+@media (max-width: 426px) {
+  .miBebe{
+    height: auto;
+  }
+  .veterinaria{
+    height: auto;
+    
+  }
+  .bazar{
+    height: auto;
+  
+  }
+ 
 }
 
 
