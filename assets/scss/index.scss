@@ -1,0 +1,22 @@
+@import "./variables";
+@import "./normalize";
+@import "./mixins";
+@import "./global";
+
+/* Partials*/
+@import "./partials/backToTop";
+@import "./partials/navbar";
+@import "./partials/navbarMobile";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/features";
+@import "./partials/pricing";
+@import "./partials/btnWhatsapp";
+
+/*Sections*/
+@import"./sections/hero";
+@import"./sections/about";
+@import "./sections/services";
+@import "./sections/portfolio";
+@import "./sections/team";
+@import "./sections/contact";

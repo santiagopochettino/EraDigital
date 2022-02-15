@@ -1,0 +1,47 @@
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    .container{
+        position: fixed;
+        z-index: 997;
+        box-shadow: 0px 0px 35px rgba(127, 137, 161, 0.25);
+        background-color: rgba(0, 0, 0, 0.815);
+        transition: all 0.5s;
+        height: 50px;
+        border: 2px solid #0794A9;
+        border-radius: 5px;
+        margin-top: 3px;
+        .logo {
+            h1 {
+               font-size: 24px;
+               margin: 0;
+               padding: 10px 10px;
+               line-height: 1;
+               font-weight: 700;
+               letter-spacing: 3px;
+               text-transform: uppercase;
+               font-family: "Poppins", sans-serif;
+               a{
+                color: #fff;
+                text-decoration: none;
+                img{
+                    padding: 0;
+                    margin: 0;
+                    max-height: 50px;
+                   }
+                span, a:hover span{
+                    color: #0794A9;
+                }
+               }
+           }
+          
+          }
+         
+      }
+  }
+  
+  

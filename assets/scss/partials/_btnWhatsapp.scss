@@ -1,0 +1,24 @@
+/**************************************
+# Logo wspp
+--------------------------------------------------------------*/
+.btn-wsp{
+    background-image: url("assets/img/icono-wspp");
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height:55px;
+    bottom: 20px;
+    right: 30px;
+    background: #0df053;  
+    color: #fff; 
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+   
+    z-index: 100; 
+  }
+  .btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+  }

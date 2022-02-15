@@ -1,0 +1,195 @@
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+
+#main {
+    background-color: rgba(0, 0, 0, 0.911);
+  
+  }
+  
+  .miBebe{
+    height: 352px;
+    width: 900px;
+  }
+  .veterinaria{
+    height: 352px;
+    width: 900px;
+  }
+  .bazar{
+    height: 352px;
+    width: 900px;
+  }
+  
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 0 35px 0;
+    list-style: none;
+    text-align: center;
+  }
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #444444;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    color: #0794A9;
+  }
+  .portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(33, 59, 82, 0.6);
+    position: absolute;
+    left: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+  }
+  .portfolio .portfolio-wrap img {
+    transition: 0.3s;
+  }
+  .portfolio .portfolio-wrap .portfolio-links {
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: calc(50% - 36px);
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+  }
+  .portfolio .portfolio-wrap .portfolio-links a {
+    color: #0794A9;
+    line-height: 0;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  .portfolio .portfolio-wrap .portfolio-links a i {
+    font-size: 32px;
+    line-height: 0;
+  }
+  .portfolio .portfolio-wrap .portfolio-links a:hover {
+    color: #fff;
+  }
+  .portfolio .portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+  }
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .portfolio .portfolio-wrap .portfolio-info p {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .portfolio .portfolio-wrap:hover::before {
+    left: 0;
+  }
+  .portfolio .portfolio-wrap:hover .portfolio-links {
+    opacity: 1;
+    top: calc(50% - 18px);
+  }
+  .portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+    bottom: 0;
+  }
+  
+  /*--------------------------------------------------------------
+  # Portfolio
+  --------------------------------------------------------------*/
+  .portfolio {
+    padding-bottom: 40px;
+  }
+  .portfolio .card {
+    background: rgba(0, 0, 0, 0.911);
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+    z-index: 1;
+  }
+  .portfolio .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+  }
+  .portfolio .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .portfolio .card-body {
+    z-index: 10;
+    border-top: 4px solid #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.911);
+  }
+  .portfolio .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portfolio .card-title a {
+    color: #0794A9;
+    transition: 0.3s;
+  }
+  .portfolio .card-text {
+    color: #fff;
+  }
+  .portfolio .read-more a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  .portfolio .read-more a:hover {
+    color: #0794A9;
+  }
+  .portfolio .card:hover img {
+    transform: scale(1.1);
+  }
+  .portfolio .card:hover .card-body {
+    border-color: #0794A9;
+  }
+  .portfolio .card:hover .card-body .card-title a {
+    color: #0794A9;
+  }
+  

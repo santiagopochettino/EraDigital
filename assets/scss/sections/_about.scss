@@ -1,0 +1,66 @@
+
+/*--------------------------------------------------------------
+# About => SOBRE NOSOTROS
+--------------------------------------------------------------*/
+
+.content {
+    margin-left: 50px;
+  
+  }
+  .about{
+    height: 750px;
+  }
+  .about .content {
+    padding: 30px 0;
+  }
+  .about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #0794A9;
+  }
+  .about .content p {
+    margin-bottom: 0;
+  }
+  .about .content .icon-box {
+    margin-top: 25px;
+  }
+  .about .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+    color: #0794A9;
+  }
+  .about .content .icon-box h4 a {
+    color: #0794A9;
+    transition: 0.3s;
+  }
+  .about .content .icon-box h4 a:hover {
+    color: #0794A9;
+  }
+  .about .content .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: #0794A9;
+  }
+  .about .content .icon-box p {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 60px;
+  }
+  .about .image {
+    background: url("https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+  }
+  @media (max-width: 1025px) {
+    .about .image img {
+      max-width: 100%;
+    }
+    .content {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .about{
+      height: auto;
+    }
+  }
