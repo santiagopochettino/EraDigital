@@ -13,12 +13,13 @@
         display: flex;
         list-style: none;
         align-items: center;
+        li {
+          position: relative;
       }
     
   }
  
-  .navbar li {
-    position: relative;
+  
   }
   .navbar a, .navbar a:focus {
     display: flex;
