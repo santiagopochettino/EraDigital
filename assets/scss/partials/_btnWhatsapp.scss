@@ -14,11 +14,11 @@
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-   
     z-index: 100; 
+    :hover{
+      text-decoration: none;
+      color: #0df053;
+      background: #fff;
+    }
   }
-  .btn-wsp:hover{
-    text-decoration: none;
-    color: #0df053;
-    background: #fff;
-  }
+  

@@ -5,23 +5,29 @@
 .features .content + .content {
     margin-top: 100px;
   }
-  .features .content h3 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #fff;
+.features{
+  .content {
+    h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #fff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+      padding-bottom: 10px;
+     }
+     i {
+      font-size: 20px;
+      padding-right: 4px;
+      color: #0794A9;
+    }
+    }
+     p{
+      :last-child {
+        margin-bottom: 0;
+      }
+     }
   }
-  .features .content ul {
-    list-style: none;
-    padding: 0;
-  }
-  .features .content ul li {
-    padding-bottom: 10px;
-  }
-  .features .content ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: #0794A9;
-  }
-  .features .content p:last-child {
-    margin-bottom: 0;
-  }
+}
