@@ -449,9 +449,6 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .content + .content {
-  margin-top: 100px; }
-
 .features .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -469,6 +466,9 @@ section {
 
 .features .content p :last-child {
   margin-bottom: 0; }
+
+.features .content + .content {
+  margin-top: 100px; }
 
 /*--------------------------------------------------------------
 # Pricing
@@ -633,13 +633,14 @@ section {
       background: transparent;
       color: #fff; }
   .hero .hero-img img {
-    width: 100%; }
+    width: 80%;
+    margin: 56px 40px; }
 
 @media (max-width: 991px) {
   .hero .hero-img {
     text-align: center; }
     .hero .hero-img img {
-      width: 80%; } }
+      width: 60%; } }
 
 @media (max-width: 768px) {
   .hero {
@@ -655,7 +656,7 @@ section {
       margin: 20px 20px; }
     .hero .hero-img img {
       width: 50%;
-      margin-top: 50px; } }
+      margin: 56px 20px; } }
 
 @media (max-width: 575px) {
   .hero h1 {
