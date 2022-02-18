@@ -208,6 +208,7 @@ section {
   .mobile-nav-toggle {
     display: block;
     margin-right: 20px;
+    margin-top: -5px;
     font-size: 35px; }
   .bi-x {
     color: #fff;
@@ -656,7 +657,7 @@ section {
       margin: 20px 20px; }
     .hero .hero-img img {
       width: 50%;
-      margin: 56px 20px; } }
+      margin: 30px 5px; } }
 
 @media (max-width: 575px) {
   .hero h1 {
