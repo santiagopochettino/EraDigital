@@ -727,57 +727,48 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 40px; }
-
-.services .card {
-  background: rgba(0, 0, 0, 0.911);
-  border: 0;
-  padding: 0 30px;
-  margin-bottom: 60px;
-  position: relative;
-  background: transparent;
-  z-index: 1; }
-
-.services .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  overflow: hidden;
-  z-index: 9;
-  border-radius: 0; }
-
-.services .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out; }
-
-.services .card-body {
-  z-index: 10;
-  border-top: 4px solid #fff;
-  padding: 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  transition: 0.3s;
-  background-color: rgba(0, 0, 0, 0.911); }
-
-.services .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px; }
-
-.services .card-title a {
-  color: #0794A9;
-  transition: 0.3s; }
-
-.services .card-text {
-  color: #fff; }
-
-.services .read-more a {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  transition: 0.3s; }
-
-.services .read-more a:hover {
-  color: #0794A9; }
+  .services .card {
+    background: rgba(0, 0, 0, 0.911);
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+    z-index: 1; }
+    .services .card .card-img {
+      width: calc(100% + 60px);
+      margin-left: -30px;
+      overflow: hidden;
+      z-index: 9;
+      border-radius: 0; }
+      .services .card .card-img img {
+        max-width: 100%;
+        transition: all 0.3s ease-in-out; }
+    .services .card .card-body {
+      z-index: 10;
+      border-top: 4px solid #fff;
+      padding: 30px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      margin-top: -60px;
+      transition: 0.3s;
+      background-color: rgba(0, 0, 0, 0.911); }
+      .services .card .card-body .card-title {
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px; }
+        .services .card .card-body .card-title a {
+          color: #0794A9;
+          transition: 0.3s; }
+      .services .card .card-body .card-text {
+        color: #fff; }
+  .services .read-more a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s; }
+    .services .read-more a :hover {
+      color: #0794A9; }
 
 .services .card:hover img {
   transform: scale(1.1); }
@@ -1029,69 +1020,62 @@ section {
   width: 500px;
   height: 375px;
   margin-left: 75%; }
-
-.contact .info-box i {
-  font-size: 32px;
-  color: #0794A9;
-  border-radius: 50%;
-  padding: 8px;
-  border: 2px dotted #fff7e5; }
-
-.contact .info-box h3 {
-  font-size: 20px;
-  color: #213b52;
-  font-weight: 700;
-  margin: 10px 0; }
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-  color: #5289ba; }
+  .contact .info-box i {
+    font-size: 32px;
+    color: #0794A9;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #fff7e5; }
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #213b52;
+    font-weight: 700;
+    margin: 10px 0; }
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #5289ba; }
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
   border-radius: 5px; }
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600; }
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600; }
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600; }
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px; }
+    .contact .php-email-form .loading :before {
+      content: "";
+      display: inline-block;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px -6px 0;
+      border: 3px solid #18d26e;
+      border-top-color: #eee;
+      -webkit-animation: animate-loading 1s linear infinite;
+      animation: animate-loading 1s linear infinite; }
 
 .contact .php-email-form .error-message br + br {
   margin-top: 25px; }
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600; }
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px; }
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite; }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
