@@ -663,11 +663,13 @@ section {
   .hero h1 {
     font-size: 28px;
     line-height: 36px;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+    text-align: center; }
   .hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+    text-align: center; }
   .hero .hero-img img {
     width: 80%; }
   .hero .btn-get-started {
